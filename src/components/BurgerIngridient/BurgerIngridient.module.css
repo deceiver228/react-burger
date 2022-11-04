@@ -1,0 +1,47 @@
+.ingridient__wrapper {
+    background: none;
+    border: none;
+    position: relative;
+    color: #fff;
+    width: 50%;
+    cursor: pointer;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+	margin: 1.5rem 0 2.5rem 0;
+	padding: 1px 0.75rem;
+}
+
+.ingridient {
+    background: none;
+    border: none;
+    position: relative;
+    color: #fff;
+    width: 50%;
+    cursor: pointer;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+	margin: 1.5rem 0 2.5rem 0;
+	padding: 1px 0.75rem;
+}
+
+.ingridient:hover {
+    opacity: 0.8;
+}
+
+.ingridient__image {
+    max-height: 120px;
+    max-width: 240px;
+    margin: 0 1rem 0.25rem 1rem;
+}
+
+.ingridient__price {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.25rem;
+}
+
+.ingridient__price span {
+    margin-right: 0.5rem;
+}
