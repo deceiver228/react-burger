@@ -1,0 +1,22 @@
+.ingridient-info {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.ingridient-info__wrapper {
+	display: flex;
+	justify-content: center;
+	list-style: none;
+}
+
+.ingridient-info__item {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.ingridient-info__item:last-child {
+	margin-right: 0;
+}
