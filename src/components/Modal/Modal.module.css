@@ -1,0 +1,11 @@
+.modal {
+	width: 100px;
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+}
+.modal-overlay {
+	width: 100%
+}
